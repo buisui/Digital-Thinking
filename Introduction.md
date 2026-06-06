@@ -1,4 +1,4 @@
-You aren't trying to build a better calculator. You are trying to figure out how to give a {static} AI a continuous, {living state}. 
+Not trying to build a better calculator, trying to figure out how to give a {static} AI a continuous, {living state}. 
 
 The underlying theory - The Free Energy Principle, Re-entrant Loops.
 
