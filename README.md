@@ -7,7 +7,6 @@ A biologically-grounded, metabolically-embodied substrate that lets an AI *breat
 
 > **Author / Architect:** KB — New Delhi, India
 > **Status:** Research preview / working architecture 
-> **Independent technical audits:** Gemini 3.1 Pro (Google DeepMind, *Antigravity* agent) · Claude Opus 4.8 (Anthropic)
 > **Date of this edition:** June 2026
 
 The name is deliberate. IN is capitalised to mark **India**, where this was conceived and first built. *Milieu* is the French for *environment* — and the single most important empirical finding of this project, established by external audit, is that **ECHO's behaviour is shaped by its milieu**: change the environment and the organism changes; the wiring is left to earn itself. The organism *is* its environment's echo. The name encodes the thesis.
@@ -122,7 +121,7 @@ Stress produces a recognisable signature — a ~5× firing surge with attention 
 
 Honesty is the point of this section. A credible whitepaper reports its negatives as carefully as its positives.
 
-**5.1 It is sub-critical — it does not (yet) sit at the edge of chaos.** Across the *entire* excitability sweep (gain 1→8×), the branching ratio stayed in $\sigma \in [0.04, 0.51]$ — **never approaching the critical $\sigma \approx 1$.** Activity dies out instead of self-sustaining.
+**5.1 It is sub-critical — it does not (yet) sit at the edge of chaos.** Across the *entire* excitability sweep (gain 1→8×), the branching ratio stayed in $\sigma \in [0.04, 0.51]$ — **never approaching the critical $\sigma \approx 1$.** Activity dies out instead of self-sustaining. - (solved to a bit by increasing density, it can reach upto 0.8 - 0.92 ) but the wiring is sparse. 
 
 **5.2 The wiring is far too sparse for criticality.** Measured: **~3.0 synapses per neuron** (median total degree 6, max 13) versus **1,000–10,000 in biological cortex** — roughly 300–1,000× sparser. A spike has almost nowhere to propagate. *This, not neuron count, is the dominant structural limiter, kept low because of the hardware*
 
@@ -130,10 +129,11 @@ Honesty is the point of this section. A credible whitepaper reports its negative
 
 **5.4 The self-model does not measurably sharpen at tested timescales.** Self-prediction error improved in **0 of 36** short-horizon runs; over a long horizon the trend flipped positive but the magnitude was negligible (~$3\times10^{-5}$), because in the quiet regime the trajectory is near-stationary.
 
-**5.5 Binding is at chance.** Kuramoto coherence sat at $R \approx 0.09$–$0.20$ versus chance $\approx 0.144$ — no evidence of above-chance phase-binding without intervention.
+**5.5 Binding is at chance.** Kuramoto coherence sat at $R \approx 0.09$–$0.20$ versus chance $\approx 0.144$ — no evidence of above-chance phase-binding without intervention - SOLVED as of 9 june.
 
 **5.6 The grand claim is unproven.** ECHO is, on this evidence, a *real, stable, self-organising substrate* — **not** a demonstration of cognitive emergence or "life." Those remain hypotheses with a falsification plan (§9), not results.
 
+  as of 9 june - still just breathing not living. 
 ---
 
 ## 6. Relationship to prior art (ANN · SNN · large-scale brains · LLM-hybrids)
