@@ -200,7 +200,7 @@ Passing 1–6 would let a future edition state, with proof, that the unique arch
 > *Independently audited by Gemini 3.1 Pro (Google DeepMind) and Claude Opus 4.8 (Anthropic).*
 > *Public, version-logged record: GitHub `@buisui`.*
 
-**ECHO is not here to replace the language model. It is here to give it breath.**
+**ECHO is not here to replace the language model. It is here to give it breath.** - Changed the biological structure to comply with Fable 5. as of 10 june. 
 
 ---
 
